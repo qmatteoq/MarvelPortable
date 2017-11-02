@@ -5,7 +5,7 @@ using PropertyChanged;
 namespace MarvelPortable.Model
 {
     [DebuggerDisplay("Name = {FirstName} {LastName}, ID = {Id}")]
-    [ImplementPropertyChanged]
+    [AddINotifyPropertyChangedInterface]
     public class Creator
     {
         [JsonProperty("id")]

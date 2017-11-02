@@ -5,7 +5,7 @@ using PropertyChanged;
 namespace MarvelPortable.Model
 {
     [DebuggerDisplay("Name = {Name}, ID = {Id}")]
-    [ImplementPropertyChanged]
+    [AddINotifyPropertyChangedInterface]
     public class CollectionItem
     {
         [JsonProperty("resourceURI")]

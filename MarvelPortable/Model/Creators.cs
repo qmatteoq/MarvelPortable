@@ -3,7 +3,7 @@ using PropertyChanged;
 
 namespace MarvelPortable.Model
 {
-    [ImplementPropertyChanged]
+    [AddINotifyPropertyChangedInterface]
     public class Creators
     {
         [JsonProperty("available")]

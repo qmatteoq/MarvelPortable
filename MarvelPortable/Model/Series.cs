@@ -5,7 +5,7 @@ using PropertyChanged;
 namespace MarvelPortable.Model
 {
     [DebuggerDisplay("Title = {Title}, ID = {Id}")]
-    [ImplementPropertyChanged]
+    [AddINotifyPropertyChangedInterface]
     public class Series
     {
         [JsonProperty("id")]
